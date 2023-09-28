@@ -11,7 +11,7 @@ hand = load_image('hand_arrow.png')
 x1, y1 = 640, 512
 
 
-# 1. 랜덤 위치에 손 생성
+# 랜덤 위치에 손 생성
 while True:
     back.draw_now(640, 512)
     points = [random.randint(0, 1280), random.randint(0, 1024)]
